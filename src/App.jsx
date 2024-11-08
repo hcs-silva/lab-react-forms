@@ -55,7 +55,7 @@ function App() {
       setPhone(e.target.value);
     }else if (e.target.name === "email") {
       setEmail(e.target.value);
-    } else if (e.target.value === "graduationYear") {
+    } else if (e.target.name === "graduationYear") {
       setGraduationYear(e.target.value);
     }
   }
